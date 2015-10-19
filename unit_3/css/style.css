@@ -1,8 +1,13 @@
 body {
-	text-align:center;
-	background: url("images/ropeonwood.jpg”;
+	text-align: center;
+	background: url(“http://i.imgur.com/HwTYoSC.jpg”);
 	background-size: cover;
-	color: #fff;
-	font-family: "Poiret One", cursive;
-	font-weight: 400px;
+	color: #000;
+	font-family: Helvetica;
+}
+hr{
+	width: 400px;
+}
+p{
+	font-size: 22px
 }
