@@ -1,15 +1,21 @@
 body {
+	font-family: "Helvetica";
 	text-align: center;
 }
 h1{
 	font-weight: bold;
 	text-align: center;
 }
-
+#description{
+	text-align: justify;
+	padding-right: 2cm;
+	padding-left: 2cm;
+}
 #slogan{
 	font-weight: bold;
 }
 ul{
+	color: #FF1493;
 	text-align: center;
 	list-style-type: none;
 }
