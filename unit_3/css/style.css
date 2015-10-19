@@ -1,9 +1,17 @@
 body {
 	text-align: center;
-	background: url(“http://i.imgur.com/HwTYoSC.jpg”);
-	background-size: cover;
-	color: #000;
-	font-family: Helvetica;
+}
+h1{
+	font-weight: bold;
+	text-align: center;
+}
+
+#slogan{
+	font-weight: bold;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
 }
 hr{
 	width: 400px;
