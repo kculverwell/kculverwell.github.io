@@ -1,27 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	font-family: "Helvetica";
-	text-align: center;
+	font-family: "Helvetica", sans-serif;
+	font-size:22px;
 }
 h1{
-	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	font-size:2em;
 	text-align: center;
 }
 #description{
+	margin:auto;
 	text-align: justify;
-	padding-right: 2cm;
-	padding-left: 2cm;
+	width:30em;
 }
 #slogan{
 	font-weight: bold;
 }
 ul{
 	color: #FF1493;
-	text-align: center;
-	list-style-type: none;
+	margin:auto;
+	width:10em;
 }
 hr{
+	margin:auto;
 	width: 400px;
-}
-p{
-	font-size: 22px
 }
