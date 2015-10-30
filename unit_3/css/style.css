@@ -1,28 +1,82 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,200);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
 * { margin:0; padding:0; box-sizing:border-box; }
-body {
-	font-family: "Helvetica", sans-serif;
-	font-size:22px;
-}
+
 h1{
-	font-family: 'Poiret One', cursive;
-	font-size:2em;
+	font-family: 'Codystar', cursive;
+	background-color:#DCF900;
+	font-weight: bold;
+	font-size:4em;
+	color: #3eac98;
+	font-weight: bold;
+	letter-spacing: .2em;
+	text-align: center;	
+	padding:.2em;
+}
+h2{
+	font-family:'Open Sans', sans-serif;
+	font-size: 2em;
+	color:#3eac98;
+	letter-spacing: .18em;
+	text-align: center;	
+	padding:1em;
+/*how do i put text over the image?*/
+}
+body {
+	/*background-image: img src="images/ropeonwood.jpg";*/
+	background-color:#fde2a5;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	text-align:justify;
+}
+
+p{
+	font-family:'Open Sans', sans-serif;
+	font-size: 1em;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+/*what is the difference between padding and margin?*/
+.Sparkle {
+	
+	font-size:50px;
+	font-family:impact;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	/*margin-left: 4em;
+	margin-right: 4em;*/
 	text-align: center;
+	
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
 }
 #description{
 	margin:auto;
 	text-align: justify;
 	width:30em;
 }
-#slogan{
-	font-weight: bold;
-}
+
 ul{
-	color: #FF1493;
 	margin:auto;
 	width:10em;
 }
-hr{
-	margin:auto;
-	width: 400px;
+footer{
+	background-color:#DCF900;
 }
+/*a{
+	color:#eb24db;
+	 
+}*/
+a:link {
+	color:#eb24db;
+	text-decoration: none;
+}
+/*a:visited*/
+a:hover{
+	color: #3eac98;
+}
+/*a:active*/
