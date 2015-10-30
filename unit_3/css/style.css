@@ -21,10 +21,10 @@ h2{
 	letter-spacing: .18em;
 	text-align: center;	
 	padding:1em;
-/*how do i put text over the image?*/
+/*how do i format the image? (center it and put text over the image, so it is focal point 
+	with a bottom border that has descriptive text)*/
 }
 body {
-	/*background-image: img src="images/ropeonwood.jpg";*/
 	background-color:#fde2a5;
 	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
@@ -47,6 +47,7 @@ p{
 	/*margin-left: 4em;
 	margin-right: 4em;*/
 	text-align: center;
+	margin-top: .5em;
 	
  -webkit-text-fill-color: transparent;
  background: -webkit-linear-gradient(transparent, transparent),
@@ -54,18 +55,25 @@ p{
  background: -o-linear-gradient(transparent, transparent);
  -webkit-background-clip: text;
 }
-#description{
-	margin:auto;
+/*#description{
+	margin-top:auto;
 	text-align: justify;
 	width:30em;
+}*/
+p{
+	margin-top: 1em;
 }
 
 ul{
 	margin:auto;
 	width:10em;
+	margin-bottom: 2em;
+	color:#eb24db;
+	/*i need a box around this or somthing, how do i do that?*/
 }
 footer{
 	background-color:#DCF900;
+	/*why is Baltimore italisized and why is my Contact Me scooted over right?*/
 }
 /*a{
 	color:#eb24db;
