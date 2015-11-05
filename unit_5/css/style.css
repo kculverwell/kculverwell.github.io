@@ -3,110 +3,44 @@
 @import url(https://fonts.googleapis.com/css?family=Codystar);
 * { margin:0; padding:0; box-sizing:border-box; }
 
-h1{
-	font-family: 'Codystar', cursive;
-	background-color:#DCF900;
-	font-weight: bold;
-	font-size:2em;
-	color: #3eac98;
-	font-weight: bold;
-	letter-spacing: .2em;
-	text-align: center;	
-	padding:.2em;
+.wrapper{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-h2{
-	font-family:'Open Sans', sans-serif;
-	font-size: 1em;
-	color:#3eac98;
-	letter-spacing: .18em;
-	text-align: center;	
-	padding:1em;
-/*how do i format the image? (center it and put text over the image, so it is focal point 
-	with a bottom border that has descriptive text)*/
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-body {
-	background-color:#fde2a5;
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	text-align:justify;
-	
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-	.pouches {
-		display: block:
-		margin: 0 auto;
-	}
-
-p{
-	font-family:'Open Sans', sans-serif;
-	font-size: .75em;
-	margin-left: 15em;
-	margin-right: 15em;
-}
-/*what is the difference between padding and margin?*/
-	.Sparkle {
-		
-		font-size:40px;
-		font-family:impact;
-		text-transform: uppercase;
-		letter-spacing: .2em;
-		/*margin-left: 4em;
-		margin-right: 4em;*/
-		text-align: center;
-		margin-top: .5em;
-		margin-bottom: .5em;
-		
-	 -webkit-text-fill-color: transparent;
-	 background: -webkit-linear-gradient(transparent, transparent),
-	             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
-	 background: -o-linear-gradient(transparent, transparent);
-	 -webkit-background-clip: text;
-	}
-	/*#description{
-		margin-top:auto;
-		text-align: justify;
-		width:30em;
-	}*/
-
-p{
-	margin-top: 1em;
+.pouches{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-ul{
-	/*why won't this change?*/
-	margin:auto;
-	width:10em;
-	margin-bottom: 2em;
-	color:#eb24db;
-	/*i need a box around this or somthing, how do i do that?*/
+.description{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-li{
-	font-size .25m; 
+.workshops{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 footer{
-	background-color:#DCF900;
-}
-/*a{
-	color:#eb24db;
-	 
-}*/
-a:link {
-	color:#eb24db;
-	text-decoration: none;
-}
-/*a:visited*/
-a:hover{
-	color: #3eac98;
-}
-/*a:active*/
-
-footer{
-	text-align: center;	
-}
-address{
-	font-style: normal;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
