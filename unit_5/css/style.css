@@ -34,6 +34,11 @@ body {
 	
 }
 
+	.pouches {
+		display: block:
+		margin: 0 auto;
+	}
+
 p{
 	font-family:'Open Sans', sans-serif;
 	font-size: .75em;
@@ -41,29 +46,29 @@ p{
 	margin-right: 15em;
 }
 /*what is the difference between padding and margin?*/
-.Sparkle {
-	
-	font-size:40px;
-	font-family:impact;
-	text-transform: uppercase;
-	letter-spacing: .2em;
-	/*margin-left: 4em;
-	margin-right: 4em;*/
-	text-align: center;
-	margin-top: .5em;
-	margin-bottom: .5em;
-	
- -webkit-text-fill-color: transparent;
- background: -webkit-linear-gradient(transparent, transparent),
-             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
- background: -o-linear-gradient(transparent, transparent);
- -webkit-background-clip: text;
-}
-/*#description{
-	margin-top:auto;
-	text-align: justify;
-	width:30em;
-}*/
+	.Sparkle {
+		
+		font-size:40px;
+		font-family:impact;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		/*margin-left: 4em;
+		margin-right: 4em;*/
+		text-align: center;
+		margin-top: .5em;
+		margin-bottom: .5em;
+		
+	 -webkit-text-fill-color: transparent;
+	 background: -webkit-linear-gradient(transparent, transparent),
+	             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+	 background: -o-linear-gradient(transparent, transparent);
+	 -webkit-background-clip: text;
+	}
+	/*#description{
+		margin-top:auto;
+		text-align: justify;
+		width:30em;
+	}*/
 
 p{
 	margin-top: 1em;
@@ -71,7 +76,6 @@ p{
 
 ul{
 	/*why won't this change?*/
-	font-size .75em; 
 	margin:auto;
 	width:10em;
 	margin-bottom: 2em;
@@ -79,9 +83,12 @@ ul{
 	/*i need a box around this or somthing, how do i do that?*/
 }
 
+li{
+	font-size .25m; 
+}
+
 footer{
 	background-color:#DCF900;
-	/*why is Baltimore italisized and why is my Contact Me scooted over right?*/
 }
 /*a{
 	color:#eb24db;
@@ -96,3 +103,10 @@ a:hover{
 	color: #3eac98;
 }
 /*a:active*/
+
+footer{
+	text-align: center;	
+}
+address{
+	font-style: normal;
+}
