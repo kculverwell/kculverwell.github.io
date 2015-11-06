@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,200);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+.wrapper{
+	background-color: #FFE2B8;
+	border: 1px 0 none;
+	padding: 0;
+}
+header{
+	padding:1em;
+	background-color:#DCF900;
+}
+
+h1{
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	font-size:2em;
+	color: #3eac98;
+	font-weight: bold;
+	letter-spacing: .2em;
+	text-align: center;	
+}
+
+h2{
+	font-family:'Open Sans', sans-serif;
+	font-size: 1em;
+	color:#3eac98;
+	letter-spacing: .18em;
+	text-align: center;	
+	padding: 1em;
+}
+
+.heroimage{
+	display: block;
+	margin: auto;
+}
+
+/*.herotext{
+	width: 600px;
+	margin: auto;
+	position: relative;
+}*/
+
+body {
+	background-color:#fde2a5;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	text-align:justify;
+}
+
+p{
+	font-family:'Open Sans', sans-serif;
+	font-size: .75em;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+/*what is the difference between padding and margin?*/
+.Sparkle {
+	font-size:40px;
+	font-family: impact;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	/*margin-left: 4em;
+	margin-right: 4em;*/
+	text-align: center;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+}
+
+p{
+	margin-top: 1em;
+}
+
+.workshops{
+	background-color: #FFE2B8;
+	border: 3px #eb24db dotted;
+	margin: 20px 200px 20px 200px;
+}
+
+ul{
+	font-size: .75em; 
+	margin:auto;
+	width:10em;
+	margin-bottom: 2em;
+	color:#eb24db;
+	background: #FFE2B8
+	width: 500px ;
+}
+
+footer{
+	padding:1em;
+	background-color:#DCF900;
+	text-align: center;
+}
+address{
+	font-style: normal;
+}
+
+a:link {
+	color:#eb24db;
+	text-decoration: none;
+}
+/*a:visited*/
+a:hover{
+	color: #3eac98;
+}
+/*a:active*/
