@@ -8,10 +8,27 @@
 	border: 1px 0 none;
 	padding: 0;
 }
+
 header{
 	padding:1em;
 	background-color:#DCF900;
+	font-family: 'Codystar', cursive;
 }
+
+/*nav{
+	background-color:#DCF900;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+}
+
+nav a{
+	background-color: white;
+	text-color: ##3eac98;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+}*/
 
 h1{
 	font-family: 'Codystar', cursive;
@@ -32,10 +49,14 @@ h2{
 	padding: 1em;
 }
 
+/*div{
+	display: inline-block;
+}*/
+
 .heroimage{
 	display: block;
-	margin: auto;
-}
+	margin: auto 0;
+	}
 
 /*.herotext{
 	width: 600px;
@@ -53,17 +74,18 @@ body {
 p{
 	font-family:'Open Sans', sans-serif;
 	font-size: .75em;
-	margin-left: 15em;
-	margin-right: 15em;
+	/*margin-left: 15em;
+	margin-right: 15em;*/
+	margin-top: 1em;
 }
-/*what is the difference between padding and margin?*/
+
 .Sparkle {
 	font-size:40px;
 	font-family: impact;
 	text-transform: uppercase;
 	letter-spacing: .2em;
-	/*margin-left: 4em;
-	margin-right: 4em;*/
+	margin-left: 4em;
+	margin-right: 4em;
 	text-align: center;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -75,17 +97,39 @@ p{
  -webkit-background-clip: text;
 }
 
-p{
-	margin-top: 1em;
+#two_column{
+	background-color: #FFB7CF;
+	border: 3px #eb24db dotted;
+	padding: 20px;
 }
 
-.workshops{
-	background-color: #FFE2B8;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#ourmission{
+	background-color: violet;
 	border: 3px #eb24db dotted;
-	margin: 20px 200px 20px 200px;
+	padding: 20px;
+	float: left;
+	width: 62%;
+}
+
+#workshops{
+	background-color: pink;
+	border: 3px #eb24db dotted;
+	padding: 20px;
+	float: right;
+	width: 30%;
 }
 
 ul{
+	font-family:'Open Sans', sans-serif;
 	font-size: .75em; 
 	margin:auto;
 	width:10em;
@@ -96,9 +140,11 @@ ul{
 }
 
 footer{
+	font-family:'Open Sans', sans-serif;
 	padding:1em;
 	background-color:#DCF900;
 	text-align: center;
+	text-decoration: none;
 }
 address{
 	font-style: normal;
