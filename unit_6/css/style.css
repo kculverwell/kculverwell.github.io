@@ -6,7 +6,7 @@
 body {
 	background-color:#fde2a5;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 38px;
+	font-size: 22px;
 	text-align:justify;
 }
 
@@ -18,18 +18,20 @@ header{
 
 nav{
 	font-family: 'Open Sans', sans-serif;
-	padding: 0px;
-	margin-left: 20px;
+	text-align: center;
+/*	width: 37%;
+	margin: 0 auto;*/
 }
 
 nav a{
-	background-color: white;
+	background-color: #DCF900;
 	color: #3eac98;
 	text-decoration: none;
 	display: block;
 	float: left;
 	padding: 20px;
-	border: 3px #eb24db dotted;
+	/*width: 150px;
+	text-align: center;*/
 }
 
 h1{
@@ -85,7 +87,7 @@ a:link {
 	color:#eb24db;
 	text-decoration: none;
 }
-/*a:visited*/
+
 a:hover{
 	color: #3eac98;
 }
@@ -106,7 +108,7 @@ a:hover{
 }
 
 .Sparkle {
-	font-size:40px;
+	font-size: 1.5em;
 	font-family: impact;
 	text-transform: uppercase;
 	letter-spacing: .2em;
@@ -137,21 +139,21 @@ a:hover{
 	margin: auto;
 }
 
-#heroimage p {
+/*#heroimage p {
 	position: absolute;
 	top: 0;
 	left: 48%;
 	background: white;
-}
+}*/
 
 #two_column{
-	background-color: #FFB7CF;
 	border: 3px #eb24db dotted;
+	border-top: 3px #eb24db dotted;
 	padding: 20px;
 }
 
 #ourmission{
-	background-color: violet;
+	/*background-color: violet;*/
 	border: 3px #eb24db dotted;
 	padding: 20px;
 	float: left;
@@ -159,7 +161,7 @@ a:hover{
 }
 
 #workshops{
-	background-color: pink;
+/*	background-color: violet;*/
 	border: 3px #eb24db dotted;
 	padding: 20px;
 	float: right;
