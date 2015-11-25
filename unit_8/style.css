@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,200);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color:#fde2a5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	text-align:justify;
+}
+
+header{
+	padding:1em;
+	background-color:#DCF900;
+	font-family: 'Codystar', cursive;
+}
+
+nav{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+nav a{
+	background-color: #DCF900;
+	color: #3eac98;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #3eac98;
+	font-weight: bold;
+	letter-spacing: .2em;
+	text-align: center;	
+}
+
+h2{
+	font-family:'Open Sans', sans-serif;
+	font-size: 2em;
+	color:#3eac98;
+	letter-spacing: .18em;
+	text-align: center;	
+	padding: 1em;
+}
+
+p{
+	font-family:'Open Sans', sans-serif;
+	font-size: .75em;
+	/*margin-left: 15em;
+	margin-right: 15em;*/
+	margin-top: 1em;
+}
+
+ul{
+	font-family:'Open Sans', sans-serif;
+	font-size: .75em; 
+	margin:auto;
+	width:10em;
+	margin-bottom: 2em;
+	color:#eb24db;
+	background: #FFE2B8
+	width: 500px ;
+}
+
+footer{
+	font-family:'Open Sans', sans-serif;
+	padding:1em;
+	background-color:#DCF900;
+	text-align: center;
+	text-decoration: none;
+}
+address{
+	font-style: normal;
+}
+
+a:link {
+	color:#eb24db;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #3eac98;
+}
+
+.wrapper{
+	background-color: #FFE2B8;
+	border: 1px 0 none;
+	padding: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.Sparkle {
+	font-size: 1.5em;
+	font-family: impact;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-left: 4em;
+	margin-right: 4em;
+	text-align: center;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+}
+
+#heroimage{
+	display: block;
+	margin: auto;
+	position: relative;
+	width: 40%;
+	height: 40%;
+	}
+
+#heroimage img{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+/*#heroimage p {
+	position: absolute;
+	top: 0;
+	left: 48%;
+	background: white;
+}*/
+
+#two_column{
+	border: 3px #eb24db dotted;
+	border-top: 3px #eb24db dotted;
+	padding: 20px;
+}
+
+#ourmission{
+	/*background-color: violet;*/
+	border: 3px #eb24db dotted;
+	padding: 20px;
+	float: left;
+	width: 62%;
+}
+
+#workshops{
+/*	background-color: violet;*/
+	border: 3px #eb24db dotted;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+
+
+/*a:active*/
